@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"encoding/json"
-	"github.com/soyandrestrujillo/rest-ws/server"
+	"github.com/soyandrestrujillo/advanced_go_rest_websockets/server"
 	"net/http"
 )
 
@@ -16,7 +16,7 @@ func HomeHandler(s server.Server) http.HandlerFunc {
 		w.Header().Set("Content-Type", "application/json")
 		w.WriteHeader(http.StatusOK)
 		err := json.NewEncoder(w).Encode(HomeResponse{
-			Message: "Welcome to the API",
+			Message: "Welcome to the API Hr Analytics Backend",
 			Status:  true,
 		})
 		if err != nil {

@@ -1,1 +1,5 @@
-# advanced_go_rest_websockets
+Advanced Go Rest Websockets - 1.0.0
+
+Patter design:
+- Repository
+- REST
